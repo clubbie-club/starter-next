@@ -7,7 +7,7 @@ module.exports = configure({
     presets.typescript(),
     presets.react(),
     presets.nextJs(),
-    presets.prettier(),
+    presets.prettier({ plugins: ["prettier-plugin-tailwindcss"] }),
     presets.imports(),
   ],
 });
